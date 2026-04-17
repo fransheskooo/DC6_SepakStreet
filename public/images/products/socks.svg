@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" fill="none">
+  <rect width="800" height="600" rx="42" fill="#F3F6F2"/>
+  <path d="M301 147h89v167c0 37-30 67-67 67h-22V147Z" fill="#FFFFFF" stroke="#DCE4DD" stroke-width="10"/>
+  <path d="M410 147h89v167c0 37 30 67 67 67h22V147Z" fill="#FFFFFF" stroke="#DCE4DD" stroke-width="10"/>
+  <path d="M301 206h89M410 206h89" stroke="#1F7A3F" stroke-width="12"/>
+  <path d="M301 250h89M410 250h89" stroke="#1F7A3F" stroke-width="12"/>
+  <path d="M301 381h90c34 0 62 28 62 62v10H301v-72ZM499 381h-90c-34 0-62 28-62 62v10h152v-72Z" fill="#1F7A3F"/>
+  <text x="400" y="510" text-anchor="middle" fill="#1F2937" font-size="42" font-family="Segoe UI, sans-serif" font-weight="700">Socks</text>
+  <text x="400" y="546" text-anchor="middle" fill="#6B7280" font-size="24" font-family="Segoe UI, sans-serif">Court-ready comfort with ankle support</text>
+</svg>

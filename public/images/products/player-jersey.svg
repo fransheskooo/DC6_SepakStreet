@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" fill="none">
+  <rect width="800" height="600" rx="42" fill="#F1F5FA"/>
+  <path d="M299 166l54-34h94l54 34 52 75-52 32v173H299V273l-52-32 52-75Z" fill="#223B6A"/>
+  <path d="M353 132h94l24 66H329l24-66Z" fill="#CFE6FF"/>
+  <path d="M373 257h54v121h-54z" fill="#FFFFFF"/>
+  <text x="400" y="339" text-anchor="middle" fill="#223B6A" font-size="72" font-family="Segoe UI, sans-serif" font-weight="800">10</text>
+  <text x="400" y="492" text-anchor="middle" fill="#1F2937" font-size="42" font-family="Segoe UI, sans-serif" font-weight="700">Player Jersey</text>
+  <text x="400" y="530" text-anchor="middle" fill="#6B7280" font-size="24" font-family="Segoe UI, sans-serif">Match jersey built for team play</text>
+</svg>

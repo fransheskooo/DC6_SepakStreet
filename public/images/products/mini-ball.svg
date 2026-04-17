@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" fill="none">
+  <rect width="800" height="600" rx="42" fill="#F6F6F0"/>
+  <circle cx="400" cy="255" r="108" fill="#E7BC78"/>
+  <circle cx="400" cy="255" r="92" fill="#D19236"/>
+  <path d="M400 167 453 198l14 59-39 42h-56l-39-42 14-59 53-31Z" fill="#F8E4BF"/>
+  <path d="M347 198 400 255m53-57-53 57m0-88v132m-67-44h134" stroke="#8B5A24" stroke-width="10" stroke-linecap="round"/>
+  <text x="400" y="485" text-anchor="middle" fill="#1F2937" font-size="42" font-family="Segoe UI, sans-serif" font-weight="700">Mini Ball</text>
+  <text x="400" y="525" text-anchor="middle" fill="#6B7280" font-size="24" font-family="Segoe UI, sans-serif">Compact ball for drills and footwork</text>
+</svg>

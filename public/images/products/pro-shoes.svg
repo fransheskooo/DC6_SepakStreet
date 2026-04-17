@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" fill="none">
+  <rect width="800" height="600" rx="42" fill="#EEF3F8"/>
+  <path d="M196 347c62 0 104-31 143-96l69 10c9 39 30 72 65 96l100 10c19 2 31 16 31 34v24H196v-78Z" fill="#1F2937"/>
+  <path d="M247 341h271" stroke="#D6F7DB" stroke-width="14" stroke-linecap="round"/>
+  <path d="M286 308h79M327 278h79M367 248h67" stroke="#9FB5C8" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="315" cy="441" r="32" fill="#1F7A3F"/>
+  <circle cx="553" cy="441" r="32" fill="#1F7A3F"/>
+  <text x="400" y="506" text-anchor="middle" fill="#1F2937" font-size="42" font-family="Segoe UI, sans-serif" font-weight="700">Pro Shoes</text>
+  <text x="400" y="542" text-anchor="middle" fill="#6B7280" font-size="24" font-family="Segoe UI, sans-serif">Indoor grip shoes for explosive cuts</text>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" fill="none">
+  <rect width="800" height="600" rx="42" fill="#F7F3EA"/>
+  <circle cx="400" cy="255" r="138" fill="#E8C58A"/>
+  <circle cx="400" cy="255" r="122" fill="#C88A33"/>
+  <path d="M400 138 472 179l19 81-53 58h-76l-53-58 19-81 72-41Z" fill="#F4DDB2"/>
+  <path d="M328 179 400 255m72-76-72 76m0-117v180m-91-58h182" stroke="#8B5A24" stroke-width="12" stroke-linecap="round"/>
+  <text x="400" y="485" text-anchor="middle" fill="#1F2937" font-size="42" font-family="Segoe UI, sans-serif" font-weight="700">Sepak Match Ball</text>
+  <text x="400" y="525" text-anchor="middle" fill="#6B7280" font-size="24" font-family="Segoe UI, sans-serif">Official rattan-inspired takraw ball</text>
+</svg>

@@ -1,0 +1,64 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+@source '../**/*.jsx';
+
+@theme {
+    --font-sans: 'Segoe UI', 'Helvetica Neue', ui-sans-serif, sans-serif;
+    --color-store-bg: #f4f5f2;
+    --color-store-card: #ffffff;
+    --color-store-border: #dfe5dd;
+    --color-store-text: #1f2937;
+    --color-store-muted: #6b7280;
+    --color-store-green: #1f7a3f;
+    --color-store-green-soft: #d6f7db;
+    --color-store-yellow: #f7df9b;
+    --color-store-orange: #f7c98a;
+    --color-store-blue: #cfe6ff;
+    --color-store-red: #ffd9d9;
+}
+
+@layer base {
+    body {
+        @apply bg-[var(--color-store-bg)] text-[var(--color-store-text)] font-sans;
+    }
+
+    input,
+    select,
+    textarea {
+        @apply outline-none;
+    }
+}
+
+@layer components {
+    .store-shell {
+        @apply min-h-screen bg-[var(--color-store-bg)];
+    }
+
+    .store-container {
+        @apply mx-auto w-full max-w-7xl px-4 py-6 sm:px-6 lg:px-8;
+    }
+
+    .store-card {
+        @apply rounded-3xl border border-[var(--color-store-border)] bg-[var(--color-store-card)] shadow-[0_10px_30px_rgba(17,24,39,0.04)];
+    }
+
+    .store-input {
+        @apply w-full rounded-2xl border border-[var(--color-store-border)] bg-white px-4 py-3 text-sm text-[var(--color-store-text)] placeholder:text-[var(--color-store-muted)] focus:border-[var(--color-store-green)];
+    }
+
+    .store-button {
+        @apply inline-flex items-center justify-center rounded-2xl bg-[var(--color-store-green)] px-5 py-3 text-sm font-semibold text-white transition hover:brightness-95 disabled:cursor-not-allowed disabled:opacity-60;
+    }
+
+    .store-button-secondary {
+        @apply inline-flex items-center justify-center rounded-2xl border border-[var(--color-store-border)] bg-white px-5 py-3 text-sm font-semibold text-[var(--color-store-text)] transition hover:bg-slate-50;
+    }
+
+    .store-badge {
+        @apply inline-flex items-center rounded-full px-3 py-1 text-xs font-semibold;
+    }
+}

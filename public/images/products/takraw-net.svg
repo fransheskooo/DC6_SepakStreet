@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" fill="none">
+  <rect width="800" height="600" rx="42" fill="#EFF6F1"/>
+  <rect x="183" y="128" width="20" height="280" rx="10" fill="#1F2937"/>
+  <rect x="597" y="128" width="20" height="280" rx="10" fill="#1F2937"/>
+  <rect x="203" y="145" width="394" height="214" rx="18" fill="#FFFFFF" stroke="#DCE4DD" stroke-width="10"/>
+  <path d="M250 145v214M297 145v214M344 145v214M391 145v214M438 145v214M485 145v214M532 145v214" stroke="#B7C6B9" stroke-width="6"/>
+  <path d="M203 188h394M203 231h394M203 274h394M203 317h394" stroke="#B7C6B9" stroke-width="6"/>
+  <path d="M169 408h462" stroke="#1F7A3F" stroke-width="12" stroke-linecap="round"/>
+  <text x="400" y="488" text-anchor="middle" fill="#1F2937" font-size="42" font-family="Segoe UI, sans-serif" font-weight="700">Takraw Net</text>
+  <text x="400" y="528" text-anchor="middle" fill="#6B7280" font-size="24" font-family="Segoe UI, sans-serif">Competition-ready court net</text>
+</svg>

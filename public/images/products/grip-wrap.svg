@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" fill="none">
+  <rect width="800" height="600" rx="42" fill="#F8F4ED"/>
+  <circle cx="352" cy="266" r="92" fill="#1F7A3F"/>
+  <circle cx="352" cy="266" r="48" fill="#D6F7DB"/>
+  <path d="M423 214c60 17 122 61 151 104 12 17 8 41-9 54l-53 40-116-157 27-41Z" fill="#E2B560"/>
+  <path d="m446 251 89 121M418 290l89 121" stroke="#A36D1B" stroke-width="12" stroke-linecap="round"/>
+  <text x="400" y="492" text-anchor="middle" fill="#1F2937" font-size="42" font-family="Segoe UI, sans-serif" font-weight="700">Grip Wrap</text>
+  <text x="400" y="532" text-anchor="middle" fill="#6B7280" font-size="24" font-family="Segoe UI, sans-serif">Soft textured wrap for better control</text>
+</svg>
