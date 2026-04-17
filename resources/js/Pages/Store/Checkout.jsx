@@ -52,7 +52,26 @@ export default function Checkout({ cart, lastAddress }) {
                                 ))}
                             </div>
                         </div>
-                        <button className="store-button w-full" disabled={form.processing}>Place Order</button>
+                        <button 
+                            className="store-button w-full" 
+                            disabled={form.processing}
+                            onClick={(e) => {
+                                e.preventDefault();
+                                const orderSummary = `Order Summary:
+Total: ${peso(cart.summary.total)}
+Items: ${cart.summary.items_count} item(s)
+Payment Method: ${form.data.payment_method}
+Shipping Address: ${form.data.full_name}, ${form.data.address_line}, ${form.data.city}, ${form.data.province} ${form.data.postal_code}
+
+Are you sure you want to place this order?`;
+                                
+                                if (confirm(orderSummary)) {
+                                    form.post('/checkout');
+                                }
+                            }}
+                        >
+                            Place Order
+                        </button>
                     </form>
 
                     <div className="border-l border-[var(--color-store-border)] p-4">

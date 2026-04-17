@@ -5,7 +5,7 @@ import StoreLayout from '../../Layouts/StoreLayout';
 export default function Landing({ featured, categories }) {
     return (
         <StoreLayout>
-            <Head title="Sepak Store" />
+            <Head title="Sepak Street" />
             <div className="store-card mb-6 flex min-h-56 items-center justify-center bg-gradient-to-r from-[#f6d7d2] to-[#f3f5f8] p-10 text-center">
                 <div>
                     <p className="text-sm font-semibold uppercase tracking-[0.2em] text-slate-400">Sepak Street Featured Collection</p>
@@ -15,13 +15,7 @@ export default function Landing({ featured, categories }) {
                 </div>
             </div>
 
-            <section className="mb-6">
-                <div className="mb-4 text-2xl font-bold">Featured Products</div>
-                <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
-                    {featured.map((product) => <ProductCard key={product.id} product={product} />)}
-                </div>
-            </section>
-
+            
             <section>
                 <div className="mb-4 text-2xl font-bold">Category Highlights</div>
                 <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">

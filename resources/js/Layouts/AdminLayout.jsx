@@ -19,7 +19,7 @@ export default function AdminLayout({ children }) {
                             <div className="flex h-10 w-10 items-center justify-center rounded-full bg-[var(--color-store-green)] text-sm font-bold text-white">SS</div>
                             <div>
                                 <div className="font-semibold">Admin Panel</div>
-                                <div className="text-xs text-slate-500">Sepak Store</div>
+                                <div className="text-xs text-slate-500">Sepak Street</div>
                             </div>
                         </div>
                         <div className="space-y-2">

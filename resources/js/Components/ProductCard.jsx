@@ -30,7 +30,23 @@ export default function ProductCard({ product, canAdd = true }) {
                         <button
                             type="button"
                             disabled={product.stock === 0}
-                            onClick={() => router.post('/cart/items', { product_id: product.id, quantity: 1 }, { preserveScroll: true })}
+                            onClick={() => {
+                                if (confirm(`Add ${product.name} to your cart?`)) {
+                                    // Store cart item in session for after login
+                                    const cartItem = {
+                                        product_id: product.id,
+                                        quantity: 1,
+                                        product_name: product.name
+                                    };
+                                    sessionStorage.setItem('pending_cart_item', JSON.stringify(cartItem));
+                                    
+                                    // Redirect to login
+                                    router.visit('/login', {
+                                        method: 'get',
+                                        data: { redirect_to_cart: true }
+                                    });
+                                }
+                            }}
                             className={product.stock === 0 ? 'store-button-secondary' : 'store-button'}
                         >
                             {product.stock === 0 ? 'Out of Stock' : 'Add'}

@@ -1,5 +1,6 @@
 import '../css/app.css';
 import './bootstrap';
+import './cartHandler';
 
 import React from 'react';
 import { createRoot } from 'react-dom/client';

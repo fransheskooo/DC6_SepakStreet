@@ -25,7 +25,11 @@ export default function Cart({ cart }) {
                                 <button type="button" className="store-button-secondary h-10 w-10 px-0" onClick={() => router.patch(`/cart/items/${item.id}`, { quantity: item.quantity + 1 })}>+</button>
                             </div>
                             <div className="text-2xl font-black">{peso(item.line_total)}</div>
-                            <button type="button" className="store-badge bg-[var(--color-store-red)] text-[#d92d20]" onClick={() => router.delete(`/cart/items/${item.id}`)}>Remove</button>
+                            <button type="button" className="store-badge bg-[var(--color-store-red)] text-[#d92d20]" onClick={() => {
+                                    if (confirm(`Remove ${item.product.name} from your cart?`)) {
+                                        router.delete(`/cart/items/${item.id}`);
+                                    }
+                                }}>Remove</button>
                         </div>
                     )) : (
                         <div className="store-card p-10 text-center">
